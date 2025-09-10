@@ -1,0 +1,34 @@
+TASK 1 : *API
+Weather Application using OpenWeather API
+Objective:
+The main aim of this task is to learn how an API works and to use it in a simple project. For this, I created a small Weather Application. The app asks the user for a city name and then shows the weather details like temperature, humidity, wind speed, and description of the weather (example: sunny, cloudy, rainy).
+
+What is an API?
+An API (Application Programming Interface) is like a messenger between two programs. It helps one program to get data or services from another program.
+
+For example:
+A weather app uses a weather service API to get the latest temperature.
+A map app uses Google Maps API to show directions.
+In this task , I used the OpenWeather API, which provides live weather data.
+
+About OpenWeather API
+It is a free service that gives current weather information.
+We can get details such as temperature, humidity, wind speed, and conditions.
+It provides data in JSON format, which is easy to read and use in a program.
+Website: https://openweathermap.org/api
+
+Implementation
+Tools Used
+HTML → for designing the webpage
+CSS → for styling (basic)
+JavaScript → for calling the API and showing results
+OpenWeather API → for getting live weather data
+
+Steps Followed
+*First, I signed up on the OpenWeather website and got an API key.
+*I made a simple webpage with an input box for entering the city name.
+*I wrote JavaScript code to call the OpenWeather API using the fetch() method.
+The API sent back data in JSON format, and I displayed the useful parts like temperature, humidity, and wind speed.
+Finally, I tested the app by entering different city names.
+
+
